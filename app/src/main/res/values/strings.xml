@@ -2,4 +2,25 @@
     <string name="app_name">My Application</string>
     <string name="act_home_tip">主人,我是您的手机小卫士</string>
     <string name="act_home_item_tip">高级工具</string>
+    <string name="set_diolog_text">设置密码</string>
+    <string name="inter_diolog_text">输入密码</string>
+    <string name="set_diolog_hint">请输入密码</string>
+    <string name="set_diolog_hint1">请再次输入密码</string>
+    <string name="set_diolog_sure">确认</string>
+    <string name="set_diolog_cancel">取消</string>
+    <string name="item_app_list_start">启动</string>
+    <string name="item_app_list_download">卸载</string>
+    <string name="item_app_list_share">分享</string>
+    <string name="item_app_list_setting">设置</string>
+    <string name="act_virusscan_scan">全盘扫描</string>
+    <string name="act_virusscan_text">全面扫描手机,杀毒更彻底</string>
+    <string name="ui_settings_view_text">黑名单设置</string>
+    <string name="ui_settings_view_status_on">黑名单拦截已开启</string>
+    <string name="ui_settings_view_status_off">黑名单拦截已关闭</string>
+    <string name="ui_settings_view_settitle">黑名单拦截设置</string>
+    <string name="ui_settings_view_status_on1">程序锁已开启</string>
+    <string name="ui_settings_view_status_off1">程序锁已关闭</string>
+    <string name="ui_settings_view_settitle1">程序锁设置</string>
+
+
 </resources>

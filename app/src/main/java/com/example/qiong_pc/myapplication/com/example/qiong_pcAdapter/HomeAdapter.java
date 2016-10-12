@@ -26,7 +26,7 @@ public class HomeAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return 9;
+        return imageId.length;
     }
 
     @Override

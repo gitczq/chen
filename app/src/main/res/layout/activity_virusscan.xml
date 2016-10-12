@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/titlebar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/activity_virusscan_backgroundcolor">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/activity_virusscan_virusscan_icon"/>
+    <TextView
+        android:id="@+id/tv_lastscantime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/textview"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:text="哈哈"
+        android:textColor="@color/activity_virusscan_textcolor"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_allscanvirus"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <ImageView
+            android:id="@+id/imgv_quickspan"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/activity_virusscan_quickscan_icon"
+            />
+        <TextView
+            android:id="@+id/tv_allscan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/imgv_quickspan"
+            android:text="@string/act_virusscan_scan"/>
+        <TextView
+            android:layout_below="@+id/tv_allscan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_toRightOf="@+id/tv_allscan"
+            android:text="@string/act_virusscan_text"
+
+            />
+        <View
+            android:layout_width="13dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/activity_virusscan_rightarrow_blue"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/act_home_textColor"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

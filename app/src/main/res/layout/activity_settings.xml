@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:itcast="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <include layout="@layout/titlebar"/>
+    <com.example.qiong_pc.myapplication.com.example.widget.SettingView
+        android:id="@+id/sv_blacknumber_set"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        itcast:status_on="@string/ui_settings_view_status_on"
+        itcast:status_off="@string/ui_settings_view_status_off"
+        itcast:settitle="@string/ui_settings_view_settitle"/>
+    <com.example.qiong_pc.myapplication.com.example.widget.SettingView
+        android:id="@+id/sv_applock_set"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        itcast:status_on="@string/ui_settings_view_status_on1"
+        itcast:status_off="@string/ui_settings_view_status_off1"
+        itcast:settitle="@string/ui_settings_view_settitle1"/>
+</LinearLayout>

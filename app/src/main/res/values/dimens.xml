@@ -3,4 +3,6 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="act_home_textSize">16sp</dimen>
+    <dimen name="set_diolog_textSize">20sp</dimen>
+    <dimen name="concer_bg_white_color_radius">6.0dp</dimen>
 </resources>

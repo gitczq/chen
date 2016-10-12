@@ -5,4 +5,18 @@
     <color name="colorAccent">#FF4081</color>
     <color name="act_home_textColor">#90000000</color>
     <color name="act_home_item_textColor">#80000000</color>
+    <color name="set_diolog_textColor">#1ABDE6</color>
+    <color name="concer_bg_white_color">#ffffff</color>
+    <color name="styles_backcolor">#00000000</color>
+    <color name="act_app_manager_backColor">#ada6a6</color>
+    <color name="act_app_manager_textColor">#000000</color>
+    <color name="styles_color">#80000000</color>
+    <color name="item_list_color">#cccccc</color>
+    <color name="set_diolog_background">#ffffff</color>
+    <color name="activity_virusscan_backgroundcolor">#3F51B5</color>
+    <color name="activity_virusscan_textcolor">#ffffff</color>
+    <color name="activity_virusscanspeed_item_list_textcolor">#f71717</color>
+    <color name="blue">#1b3cf4</color>
+    <color name="head">#37469d</color>
+    <color name="ui_settings_view_textcolor_gray">#878585</color>
 </resources>
